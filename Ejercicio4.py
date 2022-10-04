@@ -1,0 +1,6 @@
+num1 = int(input("Dime el primer número números"))
+num2 = int(input("Dime el segundo números"))
+print("La suma es", num1+num2)
+print("La resta es", num1-num2)
+print("La divisón es", num1/num2)
+print("La multiplicación es", num1*num2)
