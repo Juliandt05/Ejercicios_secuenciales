@@ -19,8 +19,8 @@ if mon20>=5:
 else:
     mon20=mon20*20
 if mon10>=10:
-    euro10=mon10/5
-    mon10=mon10%5*10
+    euro10=mon10/10
+    mon10=mon10%10*10
 else:
     mon10=mon10*10
     
