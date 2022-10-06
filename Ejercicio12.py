@@ -1,0 +1,5 @@
+x1=int(input("Dime el x1 "))
+y1=int(input("Dime el y1 "))
+x2=int(input("Dime el x2 "))
+y2=int(input("Dime el y2 "))
+print("La distancia entre ellos es",abs((x1-x2)+(y1-y2)*(x1-x2)+(y1-y2)))
