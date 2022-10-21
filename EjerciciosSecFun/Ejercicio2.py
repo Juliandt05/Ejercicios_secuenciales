@@ -14,3 +14,10 @@ def perirec (base:int,alt:int):
 
 peri= perirec(base,alt)
 print("El perímetro del rectangulo es",peri)
+
+def lista(base:int,alt:int):
+    vAreaBase=[]
+    vAreaBase.append(arearec(base,alt))
+    vAreaBase.append(perirec(base,alt))
+    return vAreaBase 
+print("La lista es",lista(base,alt))
